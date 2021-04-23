@@ -1,0 +1,26 @@
+{
+  "name": "everything-is-promise",
+  "version": "0.0.1",
+  "description": "Promises are nice. Let everything be a Promise!",
+  "scripts": {
+    "test": "mocha -r ts-node/register './**/*.spec.ts'",
+    "server": "node server/index.js",
+    "sand": "deno run --allow-net src/sand.ts"
+  },
+  "author": "dm",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "is-promise": "^4.0.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/assert": "^1.5.4",
+    "@types/express": "^4.17.11",
+    "@types/mocha": "^8.2.2",
+    "assert": "^2.0.0",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^4.2.9"
+  }
+}
